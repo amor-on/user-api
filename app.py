@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 # Base de datos simulada
 database = [
-    {"id": 1, "name": "Juan", "favorite_food": "Pizza", "neighborhood": "Palermo"},
-    {"id": 2, "name": "Maria", "favorite_food": "Sushi", "neighborhood": "Recoleta"},
-    {"id": 3, "name": "Carlos", "favorite_food": "Tacos", "neighborhood": "San Telmo"}
+    {"id": 1, "name": "Manuel", "favorite_food": "Chocolate", "neighborhood": "Canido"},
+    {"id": 2, "name": "Alejandro", "favorite_food": "Tortilla", "neighborhood": "Magdalena"},
+    {"id": 3, "name": "Damián", "favorite_food": "Ensaladilla", "neighborhood": "Catabois"}
 ]
 
 @app.route('/')
