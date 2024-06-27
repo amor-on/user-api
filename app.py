@@ -6,7 +6,20 @@ app = Flask(__name__)
 database = [
     {"id": 1, "name": "Manuel", "favorite_food": "Chocolate", "neighborhood": "Canido"},
     {"id": 2, "name": "Alejandro", "favorite_food": "Tortilla", "neighborhood": "Magdalena"},
-    {"id": 3, "name": "Damián", "favorite_food": "Ensaladilla", "neighborhood": "Catabois"}
+    {"id": 3, "name": "Damián", "favorite_food": "Ensaladilla", "neighborhood": "Catabois"},
+    {"id": 4, "name": "Jacobo", "favorite_food": "Pulpo a la gallega", "neighborhood": "Ferrol Vello"},
+    {"id": 5, "name": "Antonio", "favorite_food": "Lacón con grelos", "neighborhood": "Esteiro"},
+    {"id": 6, "name": "Carlos", "favorite_food": "Mariscada", "neighborhood": "Caranza"},
+    {"id": 7, "name": "Diego", "favorite_food": "Callos a la gallega", "neighborhood": "Canido"},
+    {"id": 8, "name": "Patricia", "favorite_food": "Pimientos de Padrón", "neighborhood": "Recimil"},
+    {"id": 9, "name": "Sara", "favorite_food": "Tarta de Santiago", "neighborhood": "Santa Mariña"},
+    {"id": 10, "name": "Aida", "favorite_food": "Caldo gallego", "neighborhood": "San Xoán"},
+    {"id": 11, "name": "María", "favorite_food": "Raxo", "neighborhood": "Catabois"},
+    {"id": 12, "name": "Marcos", "favorite_food": "Churrasco", "neighborhood": "Serantes"},
+    {"id": 13, "name": "Noemi", "favorite_food": "Almejas a la marinera", "neighborhood": "O Bertón"},
+    {"id": 14, "name": "Óscar", "favorite_food": "Mejillones al vapor", "neighborhood": "A Graña"},
+    {"id": 15, "name": "Antía", "favorite_food": "Filloas", "neighborhood": "Mandiá"},
+    {"id": 16, "name": "Fina", "favorite_food": "Sardinas asadas", "neighborhood": "Covas"}
 ]
 
 @app.route('/')
